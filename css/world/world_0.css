@@ -1,0 +1,172 @@
+nav[aria-label*="SimplyCode (servidor)"] .header_fd6364 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-color: #7289da;
+}
+
+
+
+nav[aria-label*="WORLD (servidor)"] .header_fd6364 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-image: url(https://www.icegif.com/wp-content/uploads/2023/07/icegif-1204.gif);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+div[data-dnd-name="WORLD"] .wrapper_f90abb {
+    background-image: url('https://www.icegif.com/wp-content/uploads/2023/07/icegif-1204.gif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
+    opacity: 0;
+}
+
+
+.content_d80634 {
+    display: flex;
+    border-radius: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(43, 56, 134, 0.514);
+}
+
+
+.dakun .content_d80634 {
+    display: flex;
+    border-radius: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(31, 145, 31, 0.911);
+}
+
+.tizi .content_d80634 {
+    display: flex;
+    border-radius: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgba(167, 88, 24, 0.911);
+}
+.relkou .content_d80634 {
+    display: flex;
+    border-radius: 11px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    background-color: rgb(173, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav[aria-label*="Familia Alpha Street Racing (servidor)"] .header_fd6364 {
+    position: relative; 
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-image: url(https://i.etsystatic.com/21736128/r/il/dcb261/2996198717/il_fullxfull.2996198717_qp7f.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+
+
+nav[aria-label*="WORLD (servidor)"].headerContent_fd6364 {
+    display: flex;
+    align-items: center;
+    color: var(--header-primary);
+    margin-top: -51px;
+}
+
+
+
+
+
+
+
+.theme-dark {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7a8fdb;
+
+  --modal-background: #23283d;
+  --background-mobile-primary: #23283d;
+  --background-mobile-secondary: #1e2233;
+  --channeltextarea-background: #191f2e;
+  --background-message-hover: transparent;
+  --background-modifier-hover: #00000010;
+  --background-modifier-active: #0000001a;
+  --background-modifier-selected: #0000001f;
+  --deprecated-card-bg: #12141f63;
+  --background-floating: #101320;
+  --deprecated-quickswitcher-input-background: #101320;
+  --elevation-low: none;
+  --scrollbar-auto-thumb: #121722;
+  --scrollbar-auto-track: #191f2e;
+  --scrollbar-thin-thumb: #141925;
+  --activity-card-background: #101320;
+  --input-background: #1e2233;
+}
+.modeSelected_d8bfb3 .name_d8bfb3, .modeSelected_d8bfb3:hover .name_d8bfb3, .modeConnected_d8bfb3 .name_d8bfb3, .modeConnected_d8bfb3:hover .name_d8bfb3, .modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeUnreadImportant_d8bfb3:hover .name_d8bfb3 {
+    color: #19e700;
+}
+.modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3 {
+    background: #4c1986;
+}
+
+
+.theme-light {
+  --background-primary: #23283d;
+  --background-secondary: #1e2233;
+  --background-secondary-alt: #191f2e;
+  --background-tertiary: #101320;
+  --background-accent: #7289da;
+  --background-modifier-hover: #262b41;
+  --background-modifier-active: #262b41;
+  --modal-background: var(--background-primary);
+  --header-primary: #fff;
+  --header-secondary: #b1b5b9;
+  --text-normal: #8e9297;
+}
