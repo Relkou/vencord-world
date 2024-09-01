@@ -38,6 +38,15 @@ div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
 }
 
 
+.name_a31c43 {
+    flex: 1 1 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-image: url(https://relkou.github.io/vencord-world/gif/stars.gif);
+}
+
+
 .content_d80634 {
     display: flex;
     border-radius: 11px;
