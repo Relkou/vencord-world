@@ -1,4 +1,4 @@
-nav[aria-label*="SimplyCode (servidor)"] .header_fd6364 {
+nav[aria-label*="SimplyCode"] .header_fd6364 {
     position: relative;
     font-family: var(--font-display);
     font-weight: 500;
@@ -12,7 +12,7 @@ nav[aria-label*="SimplyCode (servidor)"] .header_fd6364 {
 
 
 
-nav[aria-label*="WORLD (servidor)"] .header_fd6364 {
+nav[aria-label*="WORLD"] .header_fd6364 {
     position: relative;
     font-family: var(--font-display);
     font-weight: 500;
