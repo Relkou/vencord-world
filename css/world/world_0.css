@@ -21,13 +21,14 @@ nav[aria-label*="WORLD"] .header_fd6364 {
     z-index: 3;
     transition: background-color .1s linear;
     box-shadow: var(--shadow-ledge);
-    background-image: url("https://38.media.tumblr.com/0b2463360a309a6ff39556b801763986/tumblr_njb2f11PPo1sjwwzso1_500.gif");
+    background-image: url("https://i0.wp.com/mossandfog.com/wp-content/uploads/2019/10/dribbble_pumpkin2.gif?resize=800%2C600&ssl=1");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
 }
+
 div[data-dnd-name="WORLD"] .wrapper_f90abb {
-    background-image: url('https://www.icegif.com/wp-content/uploads/2023/07/icegif-1204.gif');
+    background-image: url("https://i0.wp.com/mossandfog.com/wp-content/uploads/2019/10/dribbble_pumpkin2.gif?resize=800%2C600&ssl=1");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -50,7 +51,8 @@ div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
 }
 
 
-.dakun .content_d80634 {
+
+.nova .content_d80634 {
     display: flex;
     border-radius: 11px;
     justify-content: flex-start;
