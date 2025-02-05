@@ -12,7 +12,7 @@ nav[aria-label*="SimplyCode"] .header_f37cb1 {
 
 
 
-
+/* header de discord  */
 nav[aria-label*="WORLD"] .header_f37cb1 {
     position: relative;
     font-family: var(--font-display);
@@ -27,6 +27,24 @@ nav[aria-label*="WORLD"] .header_f37cb1 {
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+/* header de discord tartarox */
+nav[aria-label*="Meninas du Tartarox"] .header_f37cb1 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-image: url("https://cdn.discordapp.com/attachments/917108689767383081/1336489428272812034/image-3.png?ex=67a3fe46&is=67a2acc6&hm=ff6a5e9cdd72d2cc6e46f01ad856e4d397f1f0781e15b71e2f322238f93b1927&");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+
 
 div[data-dnd-name="WORLD"] .wrapper_f90abb {
     background-image: url("https://relkou.github.io/vencord-world/gif/pascua.gif");
@@ -72,6 +90,8 @@ div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
     margin-bottom: 1px;
     background-color: rgba(167, 88, 24, 0.911);
 }
+
+
 .relkou .content_d80634 {
     display: flex;
     border-radius: 11px;
@@ -81,37 +101,6 @@ div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
     margin-bottom: 1px;
     background-color: rgb(173, 0, 0);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav[aria-label*="Familia Alpha Street Racing (servidor)"] .header_fd6364 {
-    position: relative; 
-    font-family: var(--font-display);
-    font-weight: 500;
-    padding: 60px 16px;
-    box-sizing: border-box;
-    z-index: 3;
-    transition: background-color .1s linear;
-    box-shadow: var(--shadow-ledge);
-    background-image: url(https://i.etsystatic.com/21736128/r/il/dcb261/2996198717/il_fullxfull.2996198717_qp7f.jpg);
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-}
-
 
 
 
@@ -153,9 +142,12 @@ nav[aria-label*="WORLD (servidor)"].headerContent_fd6364 {
   --activity-card-background: #101320;
   --input-background: #1e2233;
 }
-.modeSelected_d8bfb3 .name_d8bfb3, .modeSelected_d8bfb3:hover .name_d8bfb3, .modeConnected_d8bfb3 .name_d8bfb3, .modeConnected_d8bfb3:hover .name_d8bfb3, .modeUnreadImportant_d8bfb3 .name_d8bfb3, .modeUnreadImportant_d8bfb3:hover .name_d8bfb3 {
-    color: #19e700;
+
+/* color de los nombres de los canales */
+.modeSelected__2ea32 .name__2ea32, .modeSelected__2ea32:hover .name__2ea32, .modeConnected__2ea32 .name__2ea32, .modeConnected__2ea32:hover .name__2ea32, .modeUnreadImportant__2ea32 .name__2ea32, .modeUnreadImportant__2ea32:hover .name__2ea32 {
+    color: #12ff32;
 }
+
 .modeSelected_d8bfb3 .link_d8bfb3, .modeSelected_d8bfb3:hover .link_d8bfb3 {
     background: #4c1986;
 }
