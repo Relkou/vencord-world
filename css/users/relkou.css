@@ -1,5 +1,4 @@
 :root {
-    --imagenurl: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif");
     --badge-new: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
     --badge-width: 24px;
     --badge-height: 24px;
@@ -11,7 +10,7 @@
   }
   
   div[id^="popout_"]:has(> div > div[aria-label="relkou"]) .banner__68edb {
-    background-image: var(--imagenurl) !important;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif")!important;
     background-size: 100% 100% !important; 
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -19,7 +18,7 @@
   
   /* Modal del perfil del usuario relkou */
   div.focusLock__49fc1:has([aria-label^="relkou"]) .banner__68edb {
-    background-image: var(--imagenurl) !important;
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif") !important;
     background-size: 100% 100% !important; 
     background-position: center !important;
     background-repeat: no-repeat !important;
