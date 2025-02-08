@@ -1,0 +1,33 @@
+div[data-dnd-name="WORLD"] .wrapper_f90abb {
+    background-image: url("https://relkou.github.io/vencord-world/gif/pascua.gif");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+div[data-dnd-name="WORLD"] .wrapper_f90abb img.icon_f90abb {
+    opacity: 0;
+}
+
+nav[aria-label*="WORLD"] .header_f37cb1 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-image: url("https://relkou.github.io/vencord-world/gif/pascua.gif");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+nav[aria-label*="WORLD (servidor)"].headerContent_fd6364 {
+    display: flex;
+    align-items: center;
+    color: var(--header-primary);
+    margin-top: -51px;
+}
+
