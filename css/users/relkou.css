@@ -1,0 +1,82 @@
+:root {
+    --imagenurl: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif");
+    --badge-new: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
+    --badge-width: 24px;
+    --badge-height: 24px;
+  }
+  
+  /* Popup del usuario relkou */
+  div[id^="popout_"]:has(> div > div[aria-label="relkou"]) {
+    border: 2px solid rgba(255, 0, 0, 0);
+  }
+  
+  div[id^="popout_"]:has(> div > div[aria-label="relkou"]) .banner__68edb {
+    background-image: var(--imagenurl) !important;
+    background-size: 100% 100% !important; 
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  /* Modal del perfil del usuario relkou */
+  div.focusLock__49fc1:has([aria-label^="relkou"]) .banner__68edb {
+    background-image: var(--imagenurl) !important;
+    background-size: 100% 100% !important; 
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  div[id^="popout_"]:has(> div > div[aria-label="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) {
+  position: relative;
+  display: inline-block;
+  width: var(--badge-width);
+  height: var(--badge-height);
+}
+
+div[id^="popout_"]:has(> div > div[aria-label="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--badge-new);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div[id^="popout_"]:has(> div > div[aria-label="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) .badge__8061a {
+  display: none !important;
+}
+
+/* ================== */
+/* Para el Modal (focusLock) */
+/* ================== */
+div.focusLock__49fc1:has([aria-label^="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) {
+  position: relative;
+  display: inline-block;
+  width: var(--badge-width);
+  height: var(--badge-height);
+}
+
+div.focusLock__49fc1:has([aria-label^="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: var(--badge-new);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div.focusLock__49fc1:has([aria-label^="relkou"]) 
+  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) .badge__8061a {
+  display: none !important;
+}
