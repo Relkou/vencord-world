@@ -31,6 +31,8 @@
   height: var(--badge-height);
 }
 
+
+
 div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) 
   div[aria-label="Completaste una misión"] a:has(> .badge__8061a)::before {
   content: "";
