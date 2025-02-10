@@ -1,16 +1,10 @@
-:root {
-    --badge-new: url("https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png");
-    --badge-width: 24px;
-    --badge-height: 24px;
-  }
-  
   /* Popup del usuario nico.6563 */
   div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) {
     border: 2px solid rgba(255, 0, 0, 0);
   }
   
   div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) .banner__68edb {
-    background-image: url("https://media.discordapp.net/attachments/1060027157620981791/1337702457475600426/image.png?ex=67a867ff&is=67a7167f&hm=e7844f2c02dd192f121b59aec5094e9be3c8170448a76dccd7b5d142835c3827&=&format=webp&quality=lossless&width=710&height=399")!important;
+    background-image: url("https://relkou.github.io/vencord-world/img/temp/img10000001.jpg")!important;
     background-size: 100% 100% !important; 
     background-position: center !important;
     background-repeat: no-repeat !important;
@@ -18,66 +12,8 @@
   
   /* Modal del perfil del usuario nico.6563 */
   div.focusLock__49fc1:has([aria-label^="nico.6563"]) .banner__68edb {
-    background-image: url("https://media.discordapp.net/attachments/1060027157620981791/1337702457475600426/image.png?ex=67a867ff&is=67a7167f&hm=e7844f2c02dd192f121b59aec5094e9be3c8170448a76dccd7b5d142835c3827&=&format=webp&quality=lossless&width=710&height=399")!important;
+    background-image: url("https://relkou.github.io/vencord-world/img/temp/img10000001.jpg")!important;
     background-size: 100% 100% !important; 
     background-position: center !important;
     background-repeat: no-repeat !important;
   }
-  div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) {
-  position: relative;
-  display: inline-block;
-  width: var(--badge-width);
-  height: var(--badge-height);
-}
-
-
-
-div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: var(--badge-new);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-div[id^="popout_"]:has(> div > div[aria-label="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) .badge__8061a {
-  display: none !important;
-}
-
-/* ================== */
-/* Para el Modal (focusLock) */
-/* ================== */
-div.focusLock__49fc1:has([aria-label^="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) {
-  position: relative;
-  display: inline-block;
-  width: var(--badge-width);
-  height: var(--badge-height);
-}
-
-div.focusLock__49fc1:has([aria-label^="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a)::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: var(--badge-new);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-div.focusLock__49fc1:has([aria-label^="nico.6563"]) 
-  div[aria-label="Completaste una misión"] a:has(> .badge__8061a) .badge__8061a {
-  display: none !important;
-}
