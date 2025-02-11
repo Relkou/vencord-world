@@ -1,19 +1,28 @@
-  /* Popup del usuario relkou */
-  div[id^="popout_"]:has(> div > header [role="img"][aria-label="relkou"]) {
-    border: 2px solid rgba(255, 0, 0, 0);
-  }
-  
-  div[id^="popout_"]:has(> div > header [role="img"][aria-label="relkou"]) .banner__68edb {
-    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif")!important;
-    background-size: 100% 100% !important; 
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-  }
-  
-  /* Modal del perfil del usuario relkou */
-  div.focusLock__49fc1:has(header [role="img"][aria-label^="relkou"]) .banner__68edb {
-    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif") !important;
-    background-size: 100% 100% !important; 
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-  }
+/* Popup del usuario relkou */
+div[id^="popout_"]:has(> div > header [role="img"][aria-label="relkou"]) {
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+
+div[id^="popout_"]:has(> div > header [role="img"][aria-label="relkou"]) .banner__68edb {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif")!important;
+  background-size: 100% 100% !important; 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Modal del perfil del usuario relkou */
+div.focusLock__49fc1:has(header [role="img"][aria-label^="relkou"]) .banner__68edb {
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHdsNHd4ZWh0ZTVzbWNsdXBtMGo4cG80d2RnYjdxNm12OXd5NTVwZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JKpKiSZPrGBLl3SJso/giphy.gif") !important;
+  background-size: 100% 100% !important; 
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+div.focusLock__49fc1:has(header [role="img"][aria-label^="relkou"]) .inner_c0bea0.fullSize_c0bea0 {
+  position: relative; /* Necesario para que el ::before se posicione correctamente */
+  background-image: url("https://media2.giphy.com/media/eJoZAwRN9OI5QjthIE/200w.gif?cid=6c09b952fz6xr9xfyy538smcjrst9jk1j1k2fo4x5baxri72&ep=v1_gifs_search&rid=200w.gif&ct=g") !important;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+}
