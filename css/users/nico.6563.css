@@ -2,7 +2,7 @@ div[id^="popout_"]:has(> div > header [role="img"][aria-label^="nico.6563"]) {
   border: 2px solid rgba(255, 0, 0, 0);
 }
 
-div[id^="popout_"]:has(> div > header [role="img"][aria-label^="nico.6563"]) .banner__68edb {
+div[id^="popout_"]:has(> div > div[role="img"][aria-label^="nico.6563"]) .banner__68edb {
   background-image: url("https://relkou.github.io/vencord-world/img/temp/img10000001.jpg") !important;
   background-size: 100% 100% !important; 
   background-position: center !important;
