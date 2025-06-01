@@ -1,0 +1,31 @@
+/* —————— jacky._.4577 —————— */
+div[id^="popout_"]:has(> div > header [role="img"][aria-label="jacky._.4577"]) {
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+div[id^="popout_"]:has(> div > div[aria-label="jacky._.4577"]) .banner__68edb {
+  background-image: url("https://media.tenor.com/8Gs8FSxX48MAAAAM/maxwell-kocykvr.gif") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+div.focusLock__49fc1:has(header [role="img"][aria-label^="jacky._.4577"]) .banner__68edb {
+  background-image: url("https://media.tenor.com/8Gs8FSxX48MAAAAM/maxwell-kocykvr.gif") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+div.focusLock__49fc1:has(header [role="img"][aria-label^="jacky._.4577"]) .inner_c0bea0.fullSize_c0bea0 {
+  position: relative;
+  background-image: url("https://media.tenor.com/qcVny3asK5oAAAAM/delighted-gecko.gif") !important;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+
+
+div.member_c8ffbb:has(.wrapper__44b0c[aria-label^="jacky._.4577"]) {
+  background-image: url("https://media.tenor.com/qcVny3asK5oAAAAM/delighted-gecko.gif") !important;
+  background-size: cover;
+  background-position: center;
+  color: rgb(60, 255, 1);
+}

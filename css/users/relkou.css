@@ -29,7 +29,7 @@ div.focusLock__49fc1:has(header [role="img"][aria-label^="relkou"]) .inner_c0bea
 
 /* —————— Relkou —————— */
 div.member_c8ffbb:has(
-  .wrapper__44b0c[aria-label^="relkou"]
+.wrapper__44b0c[aria-label^="relkou"]
 ) {
   background-image: url("https://relkou.github.io/vencord-world/img/temp/relkou.png") !important;
   background-size: cover;
