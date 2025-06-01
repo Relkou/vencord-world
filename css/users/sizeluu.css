@@ -26,3 +26,13 @@ div.focusLock__49fc1:has(header [role="img"][aria-label^="sizeluu"]) .inner_c0be
   background-repeat: no-repeat;
 
 }
+
+/* —————— Relkou —————— */
+div.member_c8ffbb:has(
+  .wrapper__44b0c[aria-label^="relkou"]
+) {
+  background-image: url("https://relkou.github.io/vencord-world/img/temp/sizelu.png") !important;
+  background-size: cover;
+  background-position: center;
+  color: rgb(16, 235, 235);
+}
