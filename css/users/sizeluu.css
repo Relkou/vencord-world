@@ -3,7 +3,7 @@ div[id^="popout_"]:has(> div > header [role="img"][aria-label="sizeluu"]) {
   border: 2px solid rgba(255, 0, 0, 0);
 }
 
-div[id^="popout_"]:has(> div > div[aria-label="sizeluu"]) .banner__68edb {
+div[id^="popout_"]:has(> div > div[aria-label="sizelupb"]) .banner__68edb {
   background-image: url("https://i.redd.it/3nw9slkjeu7e1.png")!important;
   background-size: 100% 100% !important; 
   background-position: center !important;
@@ -11,14 +11,14 @@ div[id^="popout_"]:has(> div > div[aria-label="sizeluu"]) .banner__68edb {
 }
 
 /* Modal del perfil del usuario sizeluu */
-div.focusLock__49fc1:has(header [role="img"][aria-label^="sizeluu"]) .banner__68edb {
+div.focusLock__49fc1:has(header [role="img"][aria-label^="sizelupb"]) .banner__68edb {
   background-image: url("https://i.redd.it/3nw9slkjeu7e1.png") !important;
   background-size: 100% 100% !important; 
   background-position: center !important;
   background-repeat: no-repeat !important;
 }
 
-div.focusLock__49fc1:has(header [role="img"][aria-label^="sizeluu"]) .inner_c0bea0.fullSize_c0bea0 {
+div.focusLock__49fc1:has(header [role="img"][aria-label^="sizelupb"]) .inner_c0bea0.fullSize_c0bea0 {
   position: relative; /* Necesario para que el ::before se posicione correctamente */
   background-image: url("https://media2.giphy.com/media/eJoZAwRN9OI5QjthIE/200w.gif?cid=6c09b952fz6xr9xfyy538smcjrst9jk1j1k2fo4x5baxri72&ep=v1_gifs_search&rid=200w.gif&ct=g") !important;
   background-size: contain;
@@ -29,7 +29,7 @@ div.focusLock__49fc1:has(header [role="img"][aria-label^="sizeluu"]) .inner_c0be
 
 /* —————— Relkou —————— */
 div.member_c8ffbb:has(
-  .wrapper__44b0c[aria-label^="relkou"]
+  .wrapper__44b0c[aria-label^="sizelupb"]
 ) {
   background-image: url("https://relkou.github.io/vencord-world/img/temp/sizelu.png") !important;
   background-size: cover;
