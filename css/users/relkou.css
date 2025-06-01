@@ -26,3 +26,13 @@ div.focusLock__49fc1:has(header [role="img"][aria-label^="relkou"]) .inner_c0bea
   background-repeat: no-repeat;
 
 }
+
+/* —————— Relkou —————— */
+div.member_c8ffbb:has(
+  .wrapper__44b0c[aria-label^="relkou"]
+) {
+  background-image: url('https://i.gifer.com/TQ3f.gif') !important;
+  background-size: cover;
+  background-position: center;
+  color: rgb(60, 255, 1);
+}
