@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Perfil Vencord World</title>
+  <style>
+    body {
+      background-color: #1e2233;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+    }
+    form {
+      max-width: 600px;
+      margin: auto;
+      background-color: #101320;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    label {
+      display: block;
+      margin: 12px 0 4px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      border-radius: 4px;
+      border: none;
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #7289da;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    textarea {
+      width: 100%;
+      height: 300px;
+      background-color: #23283d;
+      color: #0f0;
+      margin-top: 20px;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <h1>Generador de Perfil CSS para Vencord World</h1>
+  <form id="cssForm">
+    <label for="nickname">Nickname</label>
+    <input type="text" id="nickname" name="nickname" required>
+
+    <label for="avatarUrl">URL de imagen de perfil</label>
+    <input type="url" id="avatarUrl" name="avatarUrl" required>
+
+    <label for="bannerUrl">URL del banner de perfil</label>
+    <input type="url" id="bannerUrl" name="bannerUrl" required>
+
+    <label for="nicknameBannerUrl">URL del banner del nickname</label>
+    <input type="url" id="nicknameBannerUrl" name="nicknameBannerUrl" required>
+
+    <button type="submit">Generar CSS</button>
+  </form>
+
+  <textarea id="cssOutput" readonly placeholder="Tu CSS personalizado aparecerá aquí..."></textarea>
+
+  <script>
+    document.getElementById('cssForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const nickname = document.getElementById('nickname').value.trim();
+      const avatarUrl = document.getElementById('avatarUrl').value.trim();
+      const bannerUrl = document.getElementById('bannerUrl').value.trim();
+      const nicknameBannerUrl = document.getElementById('nicknameBannerUrl').value.trim();
+
+      const css = `/* —————— ${nickname} —————— */
+div[id^="popout_"]:has(> div > header [role="img"][aria-label="${nickname}"]) {
+  border: 2px solid rgba(255, 0, 0, 0);
+}
+div[id^="popout_"]:has(> div > div[aria-label="${nickname}"]) .banner__68edb {
+  background-image: url("${bannerUrl}") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+div.focusLock__49fc1:has(header [role="img"][aria-label^="${nickname}"]) .banner__68edb {
+  background-image: url("${bannerUrl}") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+div.focusLock__49fc1:has(header [role="img"][aria-label^="${nickname}"]) .inner_c0bea0.fullSize_c0bea0 {
+  position: relative;
+  background-image: url("${nicknameBannerUrl}") !important;
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+div.member_c8ffbb:has(.wrapper__44b0c[aria-label^="${nickname}"]) {
+  background-image: url("${avatarUrl}") !important;
+  background-size: cover;
+  background-position: center;
+  color: rgb(60, 255, 1);
+}`;
+
+      document.getElementById('cssOutput').value = css;
+    });
+  </script>
+</body>
+</html>

@@ -1,5 +1,5 @@
-/* Popup del usuario relkou */
-div[id^="popout_"]:has(> div > header [role="img"][aria-label="sizeluu"]) {
+/* Popup del usuario sizelupb */
+div[id^="popout_"]:has(> div > header [role="img"][aria-label="sizelupb"]) {
   border: 2px solid rgba(255, 0, 0, 0);
 }
 
@@ -10,7 +10,7 @@ div[id^="popout_"]:has(> div > div[aria-label="sizelupb"]) .banner__68edb {
   background-repeat: no-repeat !important;
 }
 
-/* Modal del perfil del usuario sizeluu */
+/* Modal del perfil del usuario sizelupb */
 div.focusLock__49fc1:has(header [role="img"][aria-label^="sizelupb"]) .banner__68edb {
   background-image: url("https://i.redd.it/3nw9slkjeu7e1.png") !important;
   background-size: 100% 100% !important; 
@@ -27,7 +27,7 @@ div.focusLock__49fc1:has(header [role="img"][aria-label^="sizelupb"]) .inner_c0b
 
 }
 
-/* —————— Relkou —————— */
+/* —————— sizelupb —————— */
 div.member_c8ffbb:has(
   .wrapper__44b0c[aria-label^="sizelupb"]
 ) {

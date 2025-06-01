@@ -1,0 +1,15 @@
+/* header de discord tartarox */
+nav[aria-label*="Meninas du Tartarox"] .header_f37cb1 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-image: url("https://relkou.github.io/vencord-world/img/temp/img10000000.png");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}

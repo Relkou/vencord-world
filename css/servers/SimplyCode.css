@@ -1,0 +1,11 @@
+nav[aria-label*="SimplyCode"] .header_f37cb1 {
+    position: relative;
+    font-family: var(--font-display);
+    font-weight: 500;
+    padding: 60px 16px;
+    box-sizing: border-box;
+    z-index: 3;
+    transition: background-color .1s linear;
+    box-shadow: var(--shadow-ledge);
+    background-color: #7289da;
+}
